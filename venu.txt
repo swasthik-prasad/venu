@@ -1,2 +1,52 @@
-venu
-byt
+1:
+git clone https//:
+git add .
+git push
+
+2:
+Basic commands 
+git branch f1
+git checkout f1
+(Text change)
+gid add .
+git commit
+git push
+git checkout main
+git merge f1
+git stash
+(Text changes)
+git stash
+(Text will vanish)-Undo
+git stash apply
+(Text will comeback)-Redo
+
+3
+Basic commands 
+git branch f1 
+(Text changes)
+git add .
+git commit -m "msg"
+git push
+git fetch origin
+git checkout f1 
+git rebase origin
+
+4:
+Basic commands 
+git tag -a v1.0 -m "message"
+git push origin tag v1.0
+
+5:
+Basic commands 
+git log --oneline
+git branch f1
+git checkout f1
+git cherry-pick commitid
+
+6
+Basic commands
+git log --oneline
+git show commitid
+git log author="Gagan813" after="2024/07/01" before="2024/08/01"
+git log -n 5
+git revert commitid
